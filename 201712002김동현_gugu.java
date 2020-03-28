@@ -5,7 +5,7 @@ public class Hello {
 	  public static void main(String[] ar) {
 		  int n;
 		  int i = 1;
-		  System.out.print("±¸±¸´Ü:");
+		  System.out.print("Â±Â¸Â±Â¸Â´Ãœ:");
 		  Scanner scan = new Scanner(System.in);
 		  n = scan.nextInt();
 		  while (i <= 9){ 
