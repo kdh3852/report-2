@@ -44,7 +44,7 @@ public class ArrList <E> {
 	}
 	public void print() {
 						if (isEmpty())
-									System.out.print("¹è¿­ÀÌ ºñ¾îÀÖÀ½.");
+									System.out.print("Â¹Ã¨Â¿Â­Ã€ÃŒ ÂºÃ±Â¾Ã®Ã€Ã–Ã€Â½.");
 						else 
 									for(int i = 0; i < a.length; i++) System.out.print(a[i]+"\t ");
 						System.out.println();
