@@ -5,22 +5,22 @@ public class Text3 {
 	public static void main(String[] args) {		
 		int year;
 		Scanner input = new Scanner(System.in);
-		System.out.print("¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("ì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		
 		year = input.nextInt();
 		
 		while (year>=1) {
 		
 		if (year%4==0 && year%100!=0 || year%400==0) {
-			System.out.println(year+"³âÀº À±³âÀÔ´Ï´Ù");	
+			System.out.println(year+"ë…„ì€ ìœ¤ë…„ì…ë‹ˆë‹¤");	
 		} else			
-			System.out.println(year+"³âÀº Æò³âÀÔ´Ï´Ù");
-		System.out.print("¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+			System.out.println(year+"ë…„ì€ í‰ë…„ì…ë‹ˆë‹¤");
+		System.out.print("ì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		year = input.nextInt();
 		
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù");
+		System.out.println("í”„ë¡œê·¸ë¨ì´ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤");
 		
 	}
 }
